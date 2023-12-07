@@ -5,7 +5,7 @@
 #include <array>
 using namespace std;
 
-int calculate(int A, int B) {
+long long calculate(long long A, long long B) {
     return (A + B) * (A - B);
 }
 
@@ -14,7 +14,7 @@ int main(void) {
     ios_base::sync_with_stdio(false);
     
 
-    int A, B;
+    long long A, B;
     cin >> A >> B;
     cout << calculate(A, B);
 
