@@ -1,3 +1,3 @@
-Last Commit Date: 2023-12-16
-Last Commit Message: Automated update
-Consecutive Days: 0
+Last Commit Date: 2023-12-17
+Last Commit Message: readme 재수정
+Consecutive Days: 1
