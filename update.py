@@ -58,7 +58,7 @@ def parse_commit_info(file_path):
     last_commit_date = None
     consecutive_days = 0
 
-    with open(file_path, 'r') as file:
+    with open(file_path, 'r', encoding='utf-8') as file:
         lines = file.readlines()
         for line in lines:
             if line.startswith('Last Commit Date:'):
@@ -95,8 +95,10 @@ def update_streak():
         # 날짜가 2일 이상 차이날 때
         consecutive_days = 0
 
+
     # commit_info.txt 파일 업데이트
-    with open('commit_info.txt', 'w') as file:
+    with open('commit_info.txt', 'w', encoding='utf-8') as file:
+        
         file.write(f"Last Commit Date: {new_commit_date}\n")
         file.write(f"Last Commit Message: {new_commit_message}\n")
         file.write(f"Consecutive Days: {consecutive_days}\n")
@@ -124,8 +126,9 @@ def main():
             problems = [os.path.join(difficulty_path, problem) for problem in sorted(os.listdir(difficulty_path))]
             content += create_markdown_table(difficulty, problems)
     
-    content += f"### 해결한 총 문제 수: {TOTAL_PROBLEM_COUNT}\n\n"
+    content += f"<h3>해결한 총 문제 수: {TOTAL_PROBLEM_COUNT}\n\n</h3>"
 
+    print(content)
     with open("README.md", "w") as fd:
         fd.write(content)
 
