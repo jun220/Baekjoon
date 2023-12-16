@@ -2,7 +2,7 @@
 #### 🔥현재 스트릭 : 17일 (2023-12-01~2023-12-17)
 
 <details>
-<summary>### 🥉 Bronze</summary>
+<summary><b>🥉 Bronze [39]</b></summary>
 
 | 문제 번호 | 문제 링크 |
 | --------- | ---- |
@@ -48,10 +48,11 @@
 
 </details>
 <details>
-<summary>### 🥈 Silver</summary>
+<summary><b>🥈 Silver [1]</b></summary>
 
 | 문제 번호 | 문제 링크 |
 | --------- | ---- |
 | 1181. 단어 정렬 | [링크](./%EB%B0%B1%EC%A4%80/Silver/1181.%E2%80%85%EB%8B%A8%EC%96%B4%E2%80%85%EC%A0%95%EB%A0%AC) |
 
 </details>
+### 해결한 총 문제 수: 40
