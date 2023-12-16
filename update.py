@@ -126,7 +126,7 @@ def main():
             problems = [os.path.join(difficulty_path, problem) for problem in sorted(os.listdir(difficulty_path))]
             content += create_markdown_table(difficulty, problems)
     
-    content += f"<h3>해결한 총 문제 수: {TOTAL_PROBLEM_COUNT}\n\n</h3>"
+    content += f"<h4>해결한 총 문제 수: {TOTAL_PROBLEM_COUNT}\n\n</h4>"
 
     print(content)
     with open("README.md", "w") as fd:
