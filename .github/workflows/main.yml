@@ -20,12 +20,13 @@ jobs: # 실제 실행될 내용
     - name: Run update.py # 2) update.py 실행
       run: |
         python update.py
-    - name: Commit changes # 3) 추가된 파일 commit
+    - name: Commit and push
       run: |
-        git config --global user.name 'jun220' # 유저명
-        git config --global user.email '152267292+jun220@users.noreply.github.com' # 유저 이메일
-        git add -A
-        git commit -am "auto update README.md" # 커밋 메시지
-    - name: Push changes # 4) 메인에 푸시
-      run: |
-        git push https://${{ secrets.ACTION_TOKEN }}@github.com/jun220/Baekjoon.git
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add .
+        git commit -m "Automated update"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
