@@ -6,7 +6,7 @@ from datetime import timedelta
 
 HEADER = "## 🎯백준 하루에 한 문제씩 꼭 풀어보자!\n#### 🔥현재 스트릭 : "
 BAEKJOON_DIR = "백준"
- TOTAL_PROBLEM_COUNT = 0
+TOTAL_PROBLEM_COUNT = 0
 
 def get_commit_dates():
     # Git 로그에서 날짜를 가져오는 명령어
