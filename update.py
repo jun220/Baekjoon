@@ -30,6 +30,7 @@ def get_last_commit_info():
     return last_commit_date, last_commit_message
 
 def create_markdown_table(directory, problems):
+    global TOTAL_PROBLEM_COUNT
     icons = {"Bronze": "🥉", "Silver": "🥈", "Gold": "🥇"}
     icon = icons.get(directory, "🏆")  # 디폴트 아이콘은 트로피로 설정
 
