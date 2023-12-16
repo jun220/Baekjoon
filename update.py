@@ -87,15 +87,15 @@ def update_streak():
         file.write(f"Last Commit Message: {new_commit_message}\n")
         file.write(f"Consecutive Days: {consecutive_days}\n")
     
-    return consecutive_days
+    return new_commit_date, consecutive_days
 
     
 
 
 def main():
     content = HEADER
-    streak_days = update_streak()
-    content += f"{streak_days}일\n\n"
+    new_commit_date, streak_days = update_streak()
+    content += f"{streak_days}일 ({new_commit_date-streak_days}~{new_commit_date})\n\n"
 
     baekjoon_path = os.path.join(".", BAEKJOON_DIR)
 
