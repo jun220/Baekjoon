@@ -34,6 +34,8 @@ def create_markdown_table(directory, problems):
     icons = {"Bronze": "🥉", "Silver": "🥈", "Gold": "🥇"}
     icon = icons.get(directory, "🏆")  # 디폴트 아이콘은 트로피로 설정
 
+    problem_dict = {}
+
     # 문제 개수 카운트
     problem_count = len(problems)
     TOTAL_PROBLEM_COUNT += problem_count
@@ -43,12 +45,20 @@ def create_markdown_table(directory, problems):
     content += "<summary><b>{} {} [{}]</b></summary>\n\n".format(icon, directory, problem_count)
 
     # 표 생성
-    content += "| 문제 번호 | 문제 링크 |\n"
-    content += "| --------- | ---- |\n"
+    content += "| 문제 번호 | 문제 이름 |\n"
+    content += "| ---- | -------- |\n"
     for problem in problems:
-        problem_name = os.path.basename(problem)
         link = urllib.parse.quote(problem)
-        content += "| {} | [링크]({}) |\n".format(problem_name, link)
+        problem_list = os.path.basename(problem).split('.')
+        problem_number = problem_list[0]
+        problem_name = problem_list[1]
+        link = urllib.parse.quote(problem)
+        problem_dict[problem_number] = problem_name, link
+    
+    sorted_dict = dict(sorted(problem_dict.items()))
+
+    for problem_number, (problem_name, link) in sorted_dict.items():
+        content += "| {} | [{}]({}) |\n".format(problem_number, problem_name, link)
     
     content += "\n</details>\n"
     return content
@@ -128,8 +138,7 @@ def main():
     
     content += f"<h4>해결한 총 문제 수: {TOTAL_PROBLEM_COUNT}\n\n</h4>"
 
-    print(content)
-    with open("README.md", "w") as fd:
+    with open("README.md", "w", encoding='utf-8') as fd:
         fd.write(content)
 
 if __name__ == "__main__":
