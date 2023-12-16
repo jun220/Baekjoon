@@ -2,6 +2,7 @@ import os
 import urllib.parse
 import subprocess
 from datetime import datetime
+from datetime import timedelta
 
 HEADER = "## 🎯백준 하루에 한 문제씩 꼭 풀어보자!\n#### 🔥현재 스트릭 : "
 BAEKJOON_DIR = "백준"
@@ -94,8 +95,9 @@ def update_streak():
 
 def main():
     content = HEADER
-    new_commit_date, streak_days = update_streak()
-    content += f"{streak_days}일 ({new_commit_date-streak_days}~{new_commit_date})\n\n"
+    end_date, streak_days = update_streak()
+    start_date = end_date - timedelta(days=streak_days - 1)
+    content += f"{streak_days}일 ({start_date}~{end_date})\n\n"
 
     baekjoon_path = os.path.join(".", BAEKJOON_DIR)
 
