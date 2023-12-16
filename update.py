@@ -1,11 +1,14 @@
 import os
 import urllib.parse
 
-HEADER = "여기에 README 파일의 상단 텍스트를 넣으세요\n\n"
+HEADER = "## 🎯백준 하루에 한 문제씩 꼭 풀어보자!\n\n"
 BAEKJOON_DIR = "백준"
 
 def create_markdown_table(directory, problems):
-    content = "## 🚀 {}\n".format(directory)
+    icons = {"Bronze": "🥉", "Silver": "🥈", "Gold": "🥇"}
+    icon = icons.get(directory, "🏆")  # 디폴트 아이콘은 트로피로 설정
+
+    content = "### {} {}\n".format(icon, directory)
     content += "| 문제번호 | 링크 |\n"
     content += "| --------- | ---- |\n"
     for problem in problems:
@@ -13,6 +16,7 @@ def create_markdown_table(directory, problems):
         link = urllib.parse.quote(problem)
         content += "| {} | [링크]({}) |\n".format(problem_name, link)
     return content
+
 
 def main():
     content = HEADER
