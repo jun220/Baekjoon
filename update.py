@@ -1,7 +1,7 @@
 import os
 import urllib.parse
 
-HEADER = "## 🎯백준 하루에 한 문제씩 꼭 풀어보자!\n\n"
+HEADER = "## 🎯백준 하루에 한 문제씩 꼭 풀어보자!\n#### 🔥현재 스트릭 : 16일\n\n"
 BAEKJOON_DIR = "백준"
 
 def create_markdown_table(directory, problems):
