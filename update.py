@@ -32,14 +32,21 @@ def create_markdown_table(directory, problems):
     icons = {"Bronze": "🥉", "Silver": "🥈", "Gold": "🥇"}
     icon = icons.get(directory, "🏆")  # 디폴트 아이콘은 트로피로 설정
 
-    content = "### {} {}\n".format(icon, directory)
-    content += "| 문제번호 | 링크 |\n"
+    # details와 summary 태그를 사용하여 접을 수 있는 섹션 생성
+    content = "<details>\n"
+    content += "<summary>### {} {}</summary>\n\n".format(icon, directory)
+
+    # 표 생성
+    content += "| 문제 번호 | 문제 링크 |\n"
     content += "| --------- | ---- |\n"
     for problem in problems:
         problem_name = os.path.basename(problem)
         link = urllib.parse.quote(problem)
         content += "| {} | [링크]({}) |\n".format(problem_name, link)
+    
+    content += "\n</details>\n"
     return content
+
 
 def parse_commit_info(file_path):
     last_commit_date = None
