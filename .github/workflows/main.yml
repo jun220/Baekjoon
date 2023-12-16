@@ -28,4 +28,4 @@ jobs: # 실제 실행될 내용
         git commit -am "auto update README.md" # 커밋 메시지
     - name: Push changes # 4) 메인에 푸시
       run: |
-        git push
+        git push https://${{ secrets.Action_Token }}@github.com/jun220/Baekjoon.git
