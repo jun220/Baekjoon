@@ -6,6 +6,7 @@ from datetime import timedelta
 
 HEADER = "## 🎯백준 하루에 한 문제씩 꼭 풀어보자!\n#### 🔥현재 스트릭 : "
 BAEKJOON_DIR = "백준"
+TOTAL_PROBLEM_COUNT = 0
 
 def get_commit_dates():
     # Git 로그에서 날짜를 가져오는 명령어
@@ -32,9 +33,13 @@ def create_markdown_table(directory, problems):
     icons = {"Bronze": "🥉", "Silver": "🥈", "Gold": "🥇"}
     icon = icons.get(directory, "🏆")  # 디폴트 아이콘은 트로피로 설정
 
+    # 문제 개수 카운트
+    problem_count = len(problems)
+    TOTAL_PROBLEM_COUNT += problem_count
+
     # details와 summary 태그를 사용하여 접을 수 있는 섹션 생성
     content = "<details>\n"
-    content += "<summary>### {} {}</summary>\n\n".format(icon, directory)
+    content += "<summary><b>{} {} [{}]</b></summary>\n\n".format(icon, directory, problem_count)
 
     # 표 생성
     content += "| 문제 번호 | 문제 링크 |\n"
@@ -117,6 +122,8 @@ def main():
         if os.path.isdir(difficulty_path):
             problems = [os.path.join(difficulty_path, problem) for problem in sorted(os.listdir(difficulty_path))]
             content += create_markdown_table(difficulty, problems)
+    
+    content += f"### 해결한 총 문제 수: {TOTAL_PROBLEM_COUNT}"
 
     with open("README.md", "w") as fd:
         fd.write(content)
