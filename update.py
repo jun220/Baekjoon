@@ -1,59 +1,35 @@
-#!/usr/bin/env python
-
 import os
-from urllib import parse
+import urllib.parse
 
-HEADER="""# 
-# 백준 & 프로그래머스 문제 풀이 목록
+HEADER = "여기에 README 파일의 상단 텍스트를 넣으세요\n\n"
+BAEKJOON_DIR = "백준"
 
-프로그래머스의 경우, 푼 문제 목록에 대한 마이그레이션이 필요합니다.
-
-"""
+def create_markdown_table(directory, problems):
+    content = "## 🚀 {}\n".format(directory)
+    content += "| 문제번호 | 링크 |\n"
+    content += "| --------- | ---- |\n"
+    for problem in problems:
+        problem_name = os.path.basename(problem)
+        link = urllib.parse.quote(problem)
+        content += "| {} | [링크]({}) |\n".format(problem_name, link)
+    return content
 
 def main():
-    content = ""
-    content += HEADER
-    
-    directories = [];
-    solveds = [];
+    content = HEADER
+    baekjoon_path = os.path.join(".", BAEKJOON_DIR)
 
-    for root, dirs, files in os.walk("."):
-        dirs.sort()
-        if root == '.':
-            for dir in ('.git', '.github'):
-                try:
-                    dirs.remove(dir)
-                except ValueError:
-                    pass
-            continue
+    if not os.path.isdir(baekjoon_path):
+        print(f"'{BAEKJOON_DIR}' 디렉토리를 찾을 수 없습니다.")
+        return
 
-        category = os.path.basename(root)
-        
-        if category == 'images':
-            continue
-        
-        directory = os.path.basename(os.path.dirname(root))
-        
-        if directory == '.':
-            continue
-            
-        if directory not in directories:
-            if directory in ["백준", "프로그래머스"]:
-                content += "## 📚 {}\n".format(directory)
-            else:
-                content += "### 🚀 {}\n".format(directory)
-                content += "| 문제번호 | 링크 |\n"
-                content += "| ----- | ----- |\n"
-            directories.append(directory)
-
-        for file in files:
-            if category not in solveds:
-                content += "|{}|[링크]({})|\n".format(category, parse.quote(os.path.join(root, file)))
-                solveds.append(category)
-                print("category : " + category)
+    for difficulty in sorted(os.listdir(baekjoon_path)):
+        difficulty_path = os.path.join(baekjoon_path, difficulty)
+        if os.path.isdir(difficulty_path):
+            problems = [os.path.join(difficulty_path, problem) for problem in sorted(os.listdir(difficulty_path))]
+            content += create_markdown_table(difficulty, problems)
 
     with open("README.md", "w") as fd:
         fd.write(content)
-        
+
 if __name__ == "__main__":
     main()
