@@ -48,13 +48,14 @@
 
 </details>
 <details>
-<summary><b>🥈 Silver [1]</b></summary>
+<summary><b>🥈 Silver [2]</b></summary>
 
 | 문제 번호 | 문제 링크 |
 | --------- | ---- |
 | 1181. 단어 정렬 | [링크](./%EB%B0%B1%EC%A4%80/Silver/1181.%E2%80%85%EB%8B%A8%EC%96%B4%E2%80%85%EC%A0%95%EB%A0%AC) |
+| 1676. 팩토리얼 0의 개수 | [링크](./%EB%B0%B1%EC%A4%80/Silver/1676.%E2%80%85%ED%8C%A9%ED%86%A0%EB%A6%AC%EC%96%BC%E2%80%850%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98) |
 
 </details>
-<h4>해결한 총 문제 수: 40
+<h4>해결한 총 문제 수: 41
 
 </h4>
