@@ -1,5 +1,5 @@
 ## 🎯백준 하루에 한 문제씩 꼭 풀어보자!
-#### 🔥현재 스트릭 : 17일 (2023-12-01~2023-12-17)
+#### 🔥현재 스트릭 : 18일 (2023-12-01~2023-12-18)
 
 <details>
 <summary><b>🥉 Bronze [39]</b></summary>
@@ -48,14 +48,15 @@
 
 </details>
 <details>
-<summary><b>🥈 Silver [2]</b></summary>
+<summary><b>🥈 Silver [3]</b></summary>
 
 | 문제 번호 | 문제 이름 |
 | ---- | -------- |
 | 1181 | [ 단어 정렬](./%EB%B0%B1%EC%A4%80/Silver/1181.%E2%80%85%EB%8B%A8%EC%96%B4%E2%80%85%EC%A0%95%EB%A0%AC) |
 | 1676 | [ 팩토리얼 0의 개수](./%EB%B0%B1%EC%A4%80/Silver/1676.%E2%80%85%ED%8C%A9%ED%86%A0%EB%A6%AC%EC%96%BC%E2%80%850%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98) |
+| 18110 | [ solved．ac](./%EB%B0%B1%EC%A4%80/Silver/18110.%E2%80%85solved%EF%BC%8Eac) |
 
 </details>
-<h4>해결한 총 문제 수: 41
+<h4>해결한 총 문제 수: 42
 
 </h4>

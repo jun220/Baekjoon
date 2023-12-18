@@ -1,3 +1,3 @@
-Last Commit Date: 2023-12-17
-Last Commit Message: Update commit_info.txt
-Consecutive Days: 17
+Last Commit Date: 2023-12-18
+Last Commit Message: [Silver IV] Title: solved.ac, Time: 88 ms, Memory: 5108 KB -BaekjoonHub
+Consecutive Days: 18
