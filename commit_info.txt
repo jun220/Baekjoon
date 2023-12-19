@@ -1,3 +1,3 @@
-Last Commit Date: 2023-12-18
-Last Commit Message: [Silver IV] Title: solved.ac, Time: 88 ms, Memory: 5108 KB -BaekjoonHub
-Consecutive Days: 18
+Last Commit Date: 2023-12-19
+Last Commit Message: [Bronze II] Title: 소수 찾기, Time: 0 ms, Memory: 2032 KB -BaekjoonHub
+Consecutive Days: 19
