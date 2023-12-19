@@ -54,9 +54,11 @@ def create_markdown_table(directory, problems):
         problem_name = problem_list[1]
         link = urllib.parse.quote(problem)
         problem_dict[problem_number] = problem_name, link
-    
-    sorted_dict = dict(sorted(problem_dict.items()))
 
+    
+    
+    sorted_dict = dict(sorted(problem_dict.items(), key=lambda x: int(x[0])))
+    
     for problem_number, (problem_name, link) in sorted_dict.items():
         content += "| {} | [{}]({}) |\n".format(problem_number, problem_name, link)
     
