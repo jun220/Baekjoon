@@ -1,3 +1,3 @@
-Last Commit Date: 2023-12-21
-Last Commit Message: [Bronze I] Title: 수 정렬하기 3, Time: 1756 ms, Memory: 2020 KB -BaekjoonHub
-Consecutive Days: 21
+Last Commit Date: 2023-12-22
+Last Commit Message: [Bronze I] Title: 팰린드롬수, Time: 0 ms, Memory: 2024 KB -BaekjoonHub
+Consecutive Days: 22
