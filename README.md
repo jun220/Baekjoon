@@ -2,7 +2,7 @@
 #### 🔥현재 스트릭 : 24일 (2023-12-01~2023-12-24)
 
 <details>
-<summary><b>🥉 Bronze [44]</b></summary>
+<summary><b>🥉 Bronze [45]</b></summary>
 
 | 문제 번호 | 문제 이름 |
 | ---- | -------- |
@@ -20,6 +20,7 @@
 | 2438 | [ 별 찍기 － 1](./%EB%B0%B1%EC%A4%80/Bronze/2438.%E2%80%85%EB%B3%84%E2%80%85%EC%B0%8D%EA%B8%B0%E2%80%85%EF%BC%8D%E2%80%851) |
 | 2475 | [ 검증수](./%EB%B0%B1%EC%A4%80/Bronze/2475.%E2%80%85%EA%B2%80%EC%A6%9D%EC%88%98) |
 | 2557 | [ Hello World](./%EB%B0%B1%EC%A4%80/Bronze/2557.%E2%80%85Hello%E2%80%85World) |
+| 2558 | [ A＋B － 2](./%EB%B0%B1%EC%A4%80/Bronze/2558.%E2%80%85A%EF%BC%8BB%E2%80%85%EF%BC%8D%E2%80%852) |
 | 2562 | [ 최댓값](./%EB%B0%B1%EC%A4%80/Bronze/2562.%E2%80%85%EC%B5%9C%EB%8C%93%EA%B0%92) |
 | 2609 | [ 최대공약수와 최소공배수](./%EB%B0%B1%EC%A4%80/Bronze/2609.%E2%80%85%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%EC%99%80%E2%80%85%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98) |
 | 2675 | [ 문자열 반복](./%EB%B0%B1%EC%A4%80/Bronze/2675.%E2%80%85%EB%AC%B8%EC%9E%90%EC%97%B4%E2%80%85%EB%B0%98%EB%B3%B5) |
@@ -62,6 +63,6 @@
 | 18110 | [ solved．ac](./%EB%B0%B1%EC%A4%80/Silver/18110.%E2%80%85solved%EF%BC%8Eac) |
 
 </details>
-<h4>해결한 총 문제 수: 47
+<h4>해결한 총 문제 수: 48
 
 </h4>
