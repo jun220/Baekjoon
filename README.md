@@ -2,7 +2,7 @@
 #### 🔥현재 스트릭 : 0일 (2023-12-30~2023-12-29)
 
 <details>
-<summary><b>🥉 Bronze [48]</b></summary>
+<summary><b>🥉 Bronze [49]</b></summary>
 
 | 문제 번호 | 문제 이름 |
 | ---- | -------- |
@@ -43,6 +43,7 @@
 | 10869 | [ 사칙연산](./%EB%B0%B1%EC%A4%80/Bronze/10869.%E2%80%85%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0) |
 | 10871 | [ X보다 작은 수](./%EB%B0%B1%EC%A4%80/Bronze/10871.%E2%80%85X%EB%B3%B4%EB%8B%A4%E2%80%85%EC%9E%91%EC%9D%80%E2%80%85%EC%88%98) |
 | 10872 | [ 팩토리얼](./%EB%B0%B1%EC%A4%80/Bronze/10872.%E2%80%85%ED%8C%A9%ED%86%A0%EB%A6%AC%EC%96%BC) |
+| 10926 | [ ？？！](./%EB%B0%B1%EC%A4%80/Bronze/10926.%E2%80%85%EF%BC%9F%EF%BC%9F%EF%BC%81) |
 | 10950 | [ A＋B － 3](./%EB%B0%B1%EC%A4%80/Bronze/10950.%E2%80%85A%EF%BC%8BB%E2%80%85%EF%BC%8D%E2%80%853) |
 | 10951 | [ A＋B － 4](./%EB%B0%B1%EC%A4%80/Bronze/10951.%E2%80%85A%EF%BC%8BB%E2%80%85%EF%BC%8D%E2%80%854) |
 | 10952 | [ A＋B － 5](./%EB%B0%B1%EC%A4%80/Bronze/10952.%E2%80%85A%EF%BC%8BB%E2%80%85%EF%BC%8D%E2%80%855) |
@@ -66,6 +67,6 @@
 | 18110 | [ solved．ac](./%EB%B0%B1%EC%A4%80/Silver/18110.%E2%80%85solved%EF%BC%8Eac) |
 
 </details>
-<h4>해결한 총 문제 수: 51
+<h4>해결한 총 문제 수: 52
 
 </h4>
