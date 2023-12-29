@@ -2,7 +2,7 @@
 #### 🔥현재 스트릭 : 29일 (2023-12-01~2023-12-29)
 
 <details>
-<summary><b>🥉 Bronze [50]</b></summary>
+<summary><b>🥉 Bronze [51]</b></summary>
 
 | 문제 번호 | 문제 이름 |
 | ---- | -------- |
@@ -35,6 +35,7 @@
 | 4470 | [ 줄번호](./%EB%B0%B1%EC%A4%80/Bronze/4470.%E2%80%85%EC%A4%84%EB%B2%88%ED%98%B8) |
 | 5337 | [ 웰컴](./%EB%B0%B1%EC%A4%80/Bronze/5337.%E2%80%85%EC%9B%B0%EC%BB%B4) |
 | 5597 | [ 과제 안 내신 분．．？](./%EB%B0%B1%EC%A4%80/Bronze/5597.%E2%80%85%EA%B3%BC%EC%A0%9C%E2%80%85%EC%95%88%E2%80%85%EB%82%B4%EC%8B%A0%E2%80%85%EB%B6%84%EF%BC%8E%EF%BC%8E%EF%BC%9F) |
+| 6840 | [ Who is in the middle？](./%EB%B0%B1%EC%A4%80/Bronze/6840.%E2%80%85Who%E2%80%85is%E2%80%85in%E2%80%85the%E2%80%85middle%EF%BC%9F) |
 | 7287 | [ 등록](./%EB%B0%B1%EC%A4%80/Bronze/7287.%E2%80%85%EB%93%B1%EB%A1%9D) |
 | 10171 | [ 고양이](./%EB%B0%B1%EC%A4%80/Bronze/10171.%E2%80%85%EA%B3%A0%EC%96%91%EC%9D%B4) |
 | 10172 | [ 개](./%EB%B0%B1%EC%A4%80/Bronze/10172.%E2%80%85%EA%B0%9C) |
@@ -68,6 +69,6 @@
 | 18110 | [ solved．ac](./%EB%B0%B1%EC%A4%80/Silver/18110.%E2%80%85solved%EF%BC%8Eac) |
 
 </details>
-<h4>해결한 총 문제 수: 53
+<h4>해결한 총 문제 수: 54
 
 </h4>
