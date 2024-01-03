@@ -1,3 +1,3 @@
-Last Commit Date: 2024-01-02
-Last Commit Message: [Silver V] Title: 영화감독 숌, Time: 76 ms, Memory: 2156 KB -BaekjoonHub
-Consecutive Days: 0
+Last Commit Date: 2024-01-03
+Last Commit Message: [Bronze II] Title: 블랙잭, Time: 0 ms, Memory: 2020 KB -BaekjoonHub
+Consecutive Days: 1
