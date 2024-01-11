@@ -105,7 +105,8 @@ def update_streak():
         consecutive_days += 1
     else:
         # 날짜가 2일 이상 차이날 때
-        consecutive_days = 0
+        # 스트릭 실패패
+        consecutive_days = 1
 
 
     # commit_info.txt 파일 업데이트
