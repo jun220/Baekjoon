@@ -125,7 +125,10 @@ def main():
     content = HEADER
     end_date, streak_days = update_streak()
     start_date = end_date - timedelta(days=streak_days - 1)
-    content += f"{streak_days}일 ({start_date}~{end_date})\n\n"
+    if(streak_days <=1):
+        content += f"{streak_days}일 ({start_date})
+    else:
+        content += f"{streak_days}일 ({start_date}~{end_date})\n\n"
 
     baekjoon_path = os.path.join(".", BAEKJOON_DIR)
 
