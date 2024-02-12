@@ -68,15 +68,6 @@
 
 </details>
 <details>
-<summary><b>🥇 Gold [2]</b></summary>
-
-| 문제 번호 | 문제 이름 |
-| ---- | -------- |
-| 1253 | [ 좋다](./%EB%B0%B1%EC%A4%80/Gold/1253.%E2%80%85%EC%A2%8B%EB%8B%A4) |
-| 1377 | [ 버블 소트](./%EB%B0%B1%EC%A4%80/Gold/1377.%E2%80%85%EB%B2%84%EB%B8%94%E2%80%85%EC%86%8C%ED%8A%B8) |
-
-</details>
-<details>
 <summary><b>🥈 Silver [7]</b></summary>
 
 | 문제 번호 | 문제 이름 |
@@ -88,6 +79,15 @@
 | 1929 | [ 소수 구하기](./%EB%B0%B1%EC%A4%80/Silver/1929.%E2%80%85%EC%86%8C%EC%88%98%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0) |
 | 11650 | [ 좌표 정렬하기](./%EB%B0%B1%EC%A4%80/Silver/11650.%E2%80%85%EC%A2%8C%ED%91%9C%E2%80%85%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0) |
 | 18110 | [ solved．ac](./%EB%B0%B1%EC%A4%80/Silver/18110.%E2%80%85solved%EF%BC%8Eac) |
+
+</details>
+<details>
+<summary><b>🥇 Gold [2]</b></summary>
+
+| 문제 번호 | 문제 이름 |
+| ---- | -------- |
+| 1253 | [ 좋다](./%EB%B0%B1%EC%A4%80/Gold/1253.%E2%80%85%EC%A2%8B%EB%8B%A4) |
+| 1377 | [ 버블 소트](./%EB%B0%B1%EC%A4%80/Gold/1377.%E2%80%85%EB%B2%84%EB%B8%94%E2%80%85%EC%86%8C%ED%8A%B8) |
 
 </details>
 <h4>해결한 총 문제 수: 68
