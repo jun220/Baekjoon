@@ -126,7 +126,7 @@ def main():
     end_date, streak_days = update_streak()
     start_date = end_date - timedelta(days=streak_days - 1)
     if(streak_days <=1):
-        content += f"{streak_days}일 ({start_date})"
+        content += f"{streak_days}일 ({start_date})\n\n"
     else:
         content += f"{streak_days}일 ({start_date}~{end_date})\n\n"
 
