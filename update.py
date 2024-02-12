@@ -136,7 +136,7 @@ def main():
         print(f"'{BAEKJOON_DIR}' 디렉토리를 찾을 수 없습니다.")
         return
 
-    for difficulty in sorted(os.listdir(baekjoon_path)):
+    for difficulty in ["Bronze", "Silver", "Gold"]:
         difficulty_path = os.path.join(baekjoon_path, difficulty)
         if os.path.isdir(difficulty_path):
             problems = [os.path.join(difficulty_path, problem) for problem in sorted(os.listdir(difficulty_path))]
