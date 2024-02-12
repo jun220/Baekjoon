@@ -1,5 +1,5 @@
 ## 🎯백준 하루에 한 문제씩 꼭 풀어보자!
-#### 🔥현재 스트릭 : 1일 (2024-02-06)<details>
+#### 🔥현재 스트릭 : 1일 (2024-02-13)<details>
 <summary><b>🥉 Bronze [59]</b></summary>
 
 | 문제 번호 | 문제 이름 |
@@ -66,11 +66,12 @@
 
 </details>
 <details>
-<summary><b>🥇 Gold [1]</b></summary>
+<summary><b>🥇 Gold [2]</b></summary>
 
 | 문제 번호 | 문제 이름 |
 | ---- | -------- |
 | 1253 | [ 좋다](./%EB%B0%B1%EC%A4%80/Gold/1253.%E2%80%85%EC%A2%8B%EB%8B%A4) |
+| 1377 | [ 버블 소트](./%EB%B0%B1%EC%A4%80/Gold/1377.%E2%80%85%EB%B2%84%EB%B8%94%E2%80%85%EC%86%8C%ED%8A%B8) |
 
 </details>
 <details>
@@ -87,6 +88,6 @@
 | 18110 | [ solved．ac](./%EB%B0%B1%EC%A4%80/Silver/18110.%E2%80%85solved%EF%BC%8Eac) |
 
 </details>
-<h4>해결한 총 문제 수: 67
+<h4>해결한 총 문제 수: 68
 
 </h4>
