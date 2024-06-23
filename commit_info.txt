@@ -1,3 +1,3 @@
-Last Commit Date: 2024-06-22
-Last Commit Message: [Silver IV] Title: 카드2, Time: 8 ms, Memory: 4160 KB -BaekjoonHub
-Consecutive Days: 1
+Last Commit Date: 2024-06-23
+Last Commit Message: [Silver IV] Title: 큐, Time: 0 ms, Memory: 2156 KB -BaekjoonHub
+Consecutive Days: 2
