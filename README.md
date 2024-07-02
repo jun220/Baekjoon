@@ -2,7 +2,7 @@
 #### 🔥현재 스트릭 : 1일 (2024-07-03)
 
 <details>
-<summary><b>🥉 Bronze [69]</b></summary>
+<summary><b>🥉 Bronze [70]</b></summary>
 
 | 문제 번호 | 문제 이름 |
 | ---- | -------- |
@@ -47,6 +47,7 @@
 | 5597 | [ 과제 안 내신 분．．？](./%EB%B0%B1%EC%A4%80/Bronze/5597.%E2%80%85%EA%B3%BC%EC%A0%9C%E2%80%85%EC%95%88%E2%80%85%EB%82%B4%EC%8B%A0%E2%80%85%EB%B6%84%EF%BC%8E%EF%BC%8E%EF%BC%9F) |
 | 6840 | [ Who is in the middle？](./%EB%B0%B1%EC%A4%80/Bronze/6840.%E2%80%85Who%E2%80%85is%E2%80%85in%E2%80%85the%E2%80%85middle%EF%BC%9F) |
 | 7287 | [ 등록](./%EB%B0%B1%EC%A4%80/Bronze/7287.%E2%80%85%EB%93%B1%EB%A1%9D) |
+| 8958 | [ OX퀴즈](./%EB%B0%B1%EC%A4%80/Bronze/8958.%E2%80%85OX%ED%80%B4%EC%A6%88) |
 | 9086 | [ 문자열](./%EB%B0%B1%EC%A4%80/Bronze/9086.%E2%80%85%EB%AC%B8%EC%9E%90%EC%97%B4) |
 | 9498 | [ 시험 성적](./%EB%B0%B1%EC%A4%80/Bronze/9498.%E2%80%85%EC%8B%9C%ED%97%98%E2%80%85%EC%84%B1%EC%A0%81) |
 | 10171 | [ 고양이](./%EB%B0%B1%EC%A4%80/Bronze/10171.%E2%80%85%EA%B3%A0%EC%96%91%EC%9D%B4) |
@@ -104,6 +105,6 @@
 | 1377 | [ 버블 소트](./%EB%B0%B1%EC%A4%80/Gold/1377.%E2%80%85%EB%B2%84%EB%B8%94%E2%80%85%EC%86%8C%ED%8A%B8) |
 
 </details>
-<h4>해결한 총 문제 수: 82
+<h4>해결한 총 문제 수: 83
 
 </h4>
