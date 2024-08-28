@@ -2,38 +2,42 @@
 #include <stack>
 using namespace std;
 
-int main() {
-    stack<int> s;
 
-    int n, x;
-    cin >> n;
+
+int main(void) {
+    stack<int> S;
+
+    int N;
+    cin >> N;
+
     string order;
-    for (int i = 0; i < n; i++) {
+    int X;
+    for (int i = 0; i < N; i++) {
         cin >> order;
         if (order == "push") {
-            cin >> x;
-            s.push(x);
-        }
-        else if (order == "top") {
-            if (s.empty()) cout << "-1\n";
-            else cout << s.top() << '\n';
+            cin >> X;
+            S.push(X);
         }
         else if (order == "pop") {
-            if (s.empty()) cout << "-1\n";
+            if (S.empty()) cout << "-1\n";
             else {
-                cout << s.top() << '\n';
-                s.pop();
+                cout << S.top() << '\n';
+                S.pop();
             }
 
         }
         else if (order == "size") {
-            cout << s.size() << '\n';
+            cout << S.size() << '\n';
         }
         else if (order == "empty") {
-            if (s.empty()) cout << 1;
-            else cout << 0;
-
-            cout << '\n';
+            cout << S.empty() << '\n';
+        }
+        else if (order == "top") {
+            if (S.empty()) cout << "-1\n";
+            else {
+                cout << S.top() << '\n';
+            }
         }
     }
+
 }
