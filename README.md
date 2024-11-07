@@ -115,14 +115,15 @@
 
 </details>
 <details>
-<summary><b>🥇 Gold [2]</b></summary>
+<summary><b>🥇 Gold [3]</b></summary>
 
 | 문제 번호 | 문제 이름 |
 | ---- | -------- |
 | 1253 | [ 좋다](./%EB%B0%B1%EC%A4%80/Gold/1253.%E2%80%85%EC%A2%8B%EB%8B%A4) |
 | 1377 | [ 버블 소트](./%EB%B0%B1%EC%A4%80/Gold/1377.%E2%80%85%EB%B2%84%EB%B8%94%E2%80%85%EC%86%8C%ED%8A%B8) |
+| 7576 | [ 토마토](./%EB%B0%B1%EC%A4%80/Gold/7576.%E2%80%85%ED%86%A0%EB%A7%88%ED%86%A0) |
 
 </details>
-<h4>해결한 총 문제 수: 101
+<h4>해결한 총 문제 수: 102
 
 </h4>
