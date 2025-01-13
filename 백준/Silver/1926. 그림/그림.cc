@@ -1,9 +1,10 @@
 #include <iostream>
 #include <queue>
+#include <vector>
+#include <stack>
+#include <vector>
+#include <cmath>
 using namespace std;
-
-vector<vector<int>> v;
-vector<vector<bool>> visited;
 
 #define X first
 #define Y second
@@ -11,77 +12,77 @@ vector<vector<bool>> visited;
 int dx[4] = { 1, 0, -1, 0 };
 int dy[4] = { 0, 1, 0, -1 };
 
-int BFS(int x, int y) {
-    int extent = 0;
-    visited[x][y] = true;
-
-    queue<pair<int, int>> Q;
-    Q.push({ x, y });
-
-    while (!Q.empty()) {
-        pair<int, int> node = Q.front();
-        Q.pop();
-        extent++;
-
-        for (int i = 0; i < 4; i++) {
-            int nx = node.X + dx[i];
-            int ny = node.Y + dy[i];
-
-            // 범위 안에 없으면 스킵
-            if (nx < 0 || nx >= visited.size() || ny < 0 || ny >= visited[0].size()) continue;
-
-            // 이미 방문했으면 스킵
-            if (visited[nx][ny] == true) continue;
-
-            if (v[nx][ny] == 1) {
-                // 방문처리
-                visited[nx][ny] = true;
-
-                Q.push({ nx, ny });
-            }
-        }
-    }
-    return extent;
-}
-
-
-
-
-
-
 int main(void) {
     ios::sync_with_stdio(0);
     cin.tie(0);
 
-    int N, M;
-    cin >> N >> M;
+
+    int M, N;
+    cin >> M >> N;
+    
+    vector<vector<int>> v(M, vector<int>(N, 0));
+    vector<vector<bool>> visited(M, vector<bool>(N, false));
 
     
 
-    v = vector<vector<int>>(N, vector<int>(M));
-    visited = vector<vector<bool>>(N, vector<bool>(M, false));
-
-    for (int x = 0; x < N; x++) {
-        for (int y = 0; y < M; y++) {
+    for (int x = 0; x < M; x++) {
+        for (int y = 0; y < N; y++) {
             cin >> v[x][y];
         }
     }
 
-    int paint_num{ 0 };
-    int max_extent{ 0 };
+    int max_size = 0; // 그림 크기의 최대값
+    int num = 0; // 그림의 수
 
-
-
-    for (int x = 0; x < N; x++) {
-        for (int y = 0; y < M; y++) {
+    for (int x = 0; x < M; x++) {
+        for (int y = 0; y < N; y++) {
+            // 그림 BFS 탐색의 시작점이 될 수 있는지 확인
             if (visited[x][y]) continue;
-            if (v[x][y] == 0) continue;
-            paint_num++;
-            int extent = BFS(x, y);
-            if (extent > max_extent) max_extent = extent;
+            if (v[x][y] != 1) continue;
 
+            // 조건을 확인했다면 탐색 준비, 그림의 수 증가
+            num++;
+            int area = 0; // 현재 그림의 넓이
+
+            queue<pair<int, int>> Q;
+
+            // 첫번째 칸 방문처리
+            visited[x][y] = true;
+            Q.push({ x, y });
+
+
+            while (!Q.empty()) {
+                area++;
+                pair<int, int> cur = Q.front(); Q.pop();
+
+                for (int dir = 0; dir < 4; dir++) {
+                    int nx = cur.X + dx[dir];
+                    int ny = cur.Y + dy[dir];
+
+                    if (nx < 0 || nx >= M || ny < 0 || ny >= N) continue;
+                    if (visited[nx][ny]) continue;
+
+                    if (v[nx][ny] == 1) {
+                        visited[nx][ny] = true;
+                        Q.push({ nx, ny });
+                    }
+
+                }
+
+            }
+            max_size = max(max_size, area);
+            //cout << "area: " << area << '\n';
         }
     }
 
-    cout << paint_num << '\n' << max_extent;
+    cout << num << '\n' << max_size;
+    
+
+    
+    
+    
+    
+
+
+
 }
