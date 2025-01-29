@@ -1,3 +1,3 @@
-Last Commit Date: 2025-01-29
-Last Commit Message: [Silver II] Title: 잃어버린 괄호, Time: 0 ms, Memory: 2024 KB -BaekjoonHub
-Consecutive Days: 2
+Last Commit Date: 2025-01-30
+Last Commit Message: [Silver V] Title: 나이순 정렬, Time: 44 ms, Memory: 9840 KB -BaekjoonHub
+Consecutive Days: 3
