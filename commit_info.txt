@@ -1,3 +1,3 @@
-Last Commit Date: 2025-02-20
-Last Commit Message: [Silver V] Title: 배열 합치기, Time: 644 ms, Memory: 127024 KB -BaekjoonHub
+Last Commit Date: 2025-02-22
+Last Commit Message: [Silver V] Title: 배열 합치기, Time: 424 ms, Memory: 17644 KB -BaekjoonHub
 Consecutive Days: 1
